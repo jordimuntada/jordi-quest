@@ -1,0 +1,116 @@
+/* jordi.quest — plain text base with a touch of warmth (~10% fancy). */
+
+:root {
+  --accent: #8a6d3b;   /* warm clay-gold, the only color on the page */
+  --ink: #1a1a18;
+  --muted: #5c5c58;
+  --line: #d8d4cc;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem 3rem;
+  max-width: 70ch;
+  font: 16px/1.75 system-ui, sans-serif;
+  color: var(--ink);
+  background: #fff;
+  animation: rise 0.6s ease-out both;
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+::selection { background: var(--accent); color: #fff; }
+
+header nav {
+  font-size: 0.9rem;
+  margin-bottom: 3rem;
+}
+
+header nav a {
+  margin-right: 0.75rem;
+  color: var(--ink);
+  text-decoration-color: var(--line);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s ease;
+}
+
+header nav a:hover { text-decoration-color: var(--accent); }
+
+h1, h2, h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: 500;
+  line-height: 1.25;
+  text-wrap: balance;
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 1.7rem; margin: 0 0 1rem; }
+h2 { font-size: 1.25rem; margin: 0 0 0.75rem; }
+h3 { font-size: 1.05rem; margin: 1.75rem 0 0.5rem; }
+
+.lede { color: var(--muted); }
+
+p { margin: 0 0 1rem; }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 2.5rem 0;
+}
+
+section { margin-bottom: 2.5rem; }
+
+.kicker {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--accent);
+  margin: 0 0 0.5rem;
+}
+
+ol { padding-left: 1.25rem; margin: 0 0 1rem; }
+li { margin-bottom: 0.75rem; }
+li::marker { color: var(--accent); }
+
+blockquote {
+  margin: 0 0 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+  font-family: Georgia, 'Times New Roman', serif;
+  font-style: italic;
+}
+
+a {
+  color: var(--ink);
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+a:hover { color: var(--accent); }
+
+.muted { color: var(--muted); }
+
+dl dt {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+dl dd { margin: 0 0 0.5rem 0; }
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
