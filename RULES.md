@@ -14,11 +14,11 @@
 - Archived designs: `designs/<name>/` (never import from here)
 
 ## Design Constraints
-- **Text-based**: The site must read like a document. No images, icons, favicons, or graphics
-- **One accent color**: `--accent` (#8a6d3b) is the only non-neutral color
-- **No webfonts**: system-ui for body, Georgia/'Times New Roman' serif for headings
-- **No heavy effects**: no gradients, shadows, transforms (except the one gentle body fade-in)
-- **Max width**: 70ch for readability
+- **Breathable**: whitespace, slow rhythm, calm warm neutrals; soft cards with gentle hover lift
+- **Palette**: only CSS custom properties from `app.css` (#FAF9F6 bg, #1A1A18 ink, sage/clay/sky accents)
+- **Typography**: Newsreader (headings) + Inter (body) via Google Fonts
+- **Animations**: Subtle, slow (3-6s durations), ease-in-out
+- **Max width**: 720px content width for readability
 - **All three languages must stay in sync** — every visible string lives in `src/lib/i18n/index.js`
 
 ## Git Rules

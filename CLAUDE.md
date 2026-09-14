@@ -5,10 +5,10 @@ jordi.quest is a personal, text-based website built with SvelteKit, deployed to 
 
 ## Current State
 - **Framework**: SvelteKit 5.x (Node adapter)
-- **Design**: Plain text + ~10% warmth — one accent color, serif headings, gentle fade-in. NO graphics, webfonts, or favicon.
+- **Design**: Breathable — warm neutrals, Newsreader + Inter webfonts, breath gradient orb, soft cards, "j" quest-path SVG favicon
 - **Deployment**: Railway (railway.json), domain jordi.quest
 - **Status**: Draft — placeholder content awaiting real copy
-- **Archived**: The original airy design lives in `designs/breathable-v1/`
+- **Backed up**: The plain text version lives in `designs/text-v1/`
 
 ## Architecture
 - `src/lib/i18n/index.js` — all translations (en/ca/es), single source of truth

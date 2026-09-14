@@ -11,23 +11,25 @@
 ## Architecture
 - **Frontend**: SvelteKit 5.x, Vite 6.x
 - **Adapter**: `@sveltejs/adapter-node` for Railway deployment
-- **Styling**: Plain text base + ~10% warmth (one accent color, serif headings via system serif stack, subtle fade-in). No webfonts, no graphics, no favicon.
+- **Styling**: Breathable design — warm neutrals, Newsreader + Inter webfonts, breath gradient orb, soft cards. SVG favicon ("j" quest path in gradient circle).
 - **i18n**: Route-based — `src/lib/i18n/index.js` holds all translations; one shared component renders all languages.
-- **Archived design**: `designs/breathable-v1/` (original airy design with gradients, webfonts, cards — available for later use)
+- **Backups**: `designs/text-v1/` (plain text version, available for later use)
 
 ## Key Files
 | File | Purpose |
 |------|---------|
 | `railway.json` | Railway deployment config |
 | `svelte.config.js` | SvelteKit config with Node adapter |
-| `src/app.css` | Text-first stylesheet with warm accent |
-| `src/app.html` | HTML shell (no fonts, no favicon) |
+| `src/app.css` | Breathable design system (warm neutrals) |
+| `src/app.html` | HTML shell (webfonts, favicon) |
+| `static/favicon.svg` | "j" quest-path favicon |
+| `static/icon-512.svg` | Touch icon (512px) |
 | `src/lib/i18n/index.js` | All EN/CA/ES translations |
 | `src/lib/components/QuestPage.svelte` | Shared page component (lang prop) |
 | `src/routes/+page.svelte` | English (default) |
 | `src/routes/ca/+page.svelte` | Catalan |
 | `src/routes/es/+page.svelte` | Spanish |
-| `designs/breathable-v1/` | Archived original design |
+| `designs/text-v1/` | Backed-up plain text design |
 | `.env` | Public env vars (safe to commit) |
 | `.env.local` | Private secrets (gitignored) |
 
@@ -40,11 +42,11 @@
 6. Contact — mailto link
 
 ## Design Principles
-1. **Text-first**: Content reads like a plain document; decoration is minimal
-2. **10% fancy only**: One accent color (#8a6d3b), system serif headings (Georgia), subtle hover transitions, gentle fade-in, accent list markers
-3. **No graphics**: No images, no icons, no favicon, no gradients, no shadows
-4. **No webfonts**: system-ui for body, Georgia/serif stack for headings
-5. **Accessible**: prefers-reduced-motion respected, semantic HTML
+1. **Breathable**: Lots of whitespace, slow rhythm, calm warm neutrals
+2. **Soft visuals**: Breath gradient orb, rounded cards with gentle hover lift
+3. **Typography**: Newsreader (serif headings) + Inter (body) via Google Fonts
+4. **Palette**: #FAF9F6 bg, #1A1A18 ink, sage/clay/sky accents
+5. **Accessible**: reduced-motion respected where applicable, semantic HTML
 
 ## Development Commands
 ```bash
