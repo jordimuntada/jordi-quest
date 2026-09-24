@@ -11,7 +11,7 @@ $: base = lang === defaultLang ? '' : `/${lang}`;
 </svelte:head>
 
 <nav class="nav"><div class="nav-inner">
-<a class="brand" href="/">jordi.quest</a>
+<a class="brand" href="/">Jordi</a>
 <div class="links">
 <a href="{base}/#purpose">{i.nav.purpose}</a>
 <a href="{base}/#dreams">{i.nav.dreams}</a>
