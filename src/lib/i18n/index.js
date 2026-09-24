@@ -60,7 +60,7 @@ export const t = {
       ]
     },
     cta: { kicker: 'Begin', h2: 'Say hello.', muted: 'One link. No noise.', btn: 'jordi@jordi.quest' },
-    footer: 'Jordi — draft v0.1 · SvelteKit + Railway ready'
+    footer: 'Jordi — draft v0.1 · SvelteKit + Vercel'
   },
 
   ca: {
@@ -121,7 +121,7 @@ export const t = {
       ]
     },
     cta: { kicker: 'Comença', h2: 'Digues hola.', muted: 'Un enllaç. Sense soroll.', btn: 'jordi@jordi.quest' },
-    footer: 'Jordi — esborrany v0.1 · SvelteKit + Railway a punt'
+    footer: 'Jordi — esborrany v0.1 · SvelteKit + Vercel a punt'
   },
 
   es: {
@@ -182,6 +182,6 @@ export const t = {
       ]
     },
     cta: { kicker: 'Empieza', h2: 'Di hola.', muted: 'Un enlace. Sin ruido.', btn: 'jordi@jordi.quest' },
-    footer: 'Jordi — borrador v0.1 · SvelteKit + Railway listo'
+    footer: 'Jordi — borrador v0.1 · SvelteKit + Vercel listo'
   }
 };
