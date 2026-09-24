@@ -1,6 +1,6 @@
-import adapter from '@sveltejs/adapter-node';
+import adapter from '@sveltejs/adapter-vercel';
 export default {
   kit: {
-    adapter: adapter({ out: 'build' })
+    adapter: adapter()
   }
 };

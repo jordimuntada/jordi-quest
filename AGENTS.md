@@ -4,13 +4,13 @@
 - **Name**: jordi.quest
 - **URL**: https://jordi.quest
 - **Purpose**: A text-based website about purpose, dreams that must come true, and AI as a means to achieve them.
-- **Framework**: SvelteKit with Node.js adapter
-- **Deployment**: Railway (configured via railway.json)
+- **Framework**: SvelteKit with Vercel adapter
+- **Deployment**: Vercel (SvelteKit framework preset)
 - **Languages**: English (default), Catalan (/ca), Spanish (/es)
 
 ## Architecture
 - **Frontend**: SvelteKit 5.x, Vite 6.x
-- **Adapter**: `@sveltejs/adapter-node` for Railway deployment
+- **Adapter**: `@sveltejs/adapter-vercel` for Vercel deployment
 - **Styling**: Breathable design — warm neutrals, Newsreader + Inter webfonts, breath gradient orb, soft cards. SVG favicon ("j" quest path in gradient circle).
 - **i18n**: Route-based — `src/lib/i18n/index.js` holds all translations; one shared component renders all languages.
 - **Backups**: `designs/text-v1/` (plain text version, available for later use)
@@ -18,8 +18,7 @@
 ## Key Files
 | File | Purpose |
 |------|---------|
-| `railway.json` | Railway deployment config |
-| `svelte.config.js` | SvelteKit config with Node adapter |
+| `svelte.config.js` | SvelteKit config with Vercel adapter |
 | `src/app.css` | Breathable design system (warm neutrals) |
 | `src/app.html` | HTML shell (webfonts, favicon) |
 | `static/favicon.svg` | "j" quest-path favicon |
@@ -54,22 +53,19 @@ npm install      # Install dependencies
 npm run dev      # Start dev server
 npm run build    # Production build
 npm run preview  # Preview production build
-npm run start    # Start production server (Railway)
 ```
 
 ## Deployment
-- Platform: Railway
-- Build command: `npm ci && npm run build`
-- Start command: `npm run start`
-- Restart policy: ON_FAILURE
+- Platform: Vercel
+- Framework preset: SvelteKit (builds with `npm run build`, no custom start command)
 
 ## Related Projects
 - **Hours.es**: Marketplace of spaces to rent by the hour (rooms, studios, venues)
-- **Fusta.App**: Furniture selection / interior design application
+- **Fusta.App**: Wood for carpenters and makers (raw wood / wood transformed into furniture)
 
 ## Rules for Agents
 - Keep the text-based aesthetic; do not reintroduce graphics or webfonts without request
 - Edit translations in `src/lib/i18n/index.js` (keep all three languages in sync)
 - Structural changes go in `QuestPage.svelte` (shared by all languages)
-- Maintain railway.json for deployment compatibility
+- Keep `@sveltejs/adapter-vercel` as the adapter (deployment target is Vercel)
 - Update this file when adding major features or changing architecture
