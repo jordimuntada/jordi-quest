@@ -1,13 +1,15 @@
 <script>
-export let lang = 'en';
+let { lang = 'en' } = $props();
 import { t, defaultLang } from '$lib/i18n/index.js';
-$: i = t[lang] ?? t[defaultLang];
-$: base = lang === defaultLang ? '' : `/${lang}`;
+let i = $derived(t[lang] ?? t[defaultLang]);
+let base = $derived(lang === defaultLang ? '' : `/${lang}`);
+$effect(() => {
+  document.documentElement.lang = i.htmlLang;
+});
 </script>
 
 <svelte:head>
 <title>{i.title}</title>
-<html lang={i.htmlLang} />
 </svelte:head>
 
 <nav class="nav"><div class="nav-inner">

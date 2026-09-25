@@ -88,18 +88,18 @@ export const t = {
     },
     purpose: {
       kicker: '01 — Propòsit',
-      h2: 'La meva quest.',
+      h2: 'La meva recerca.',
       lines: [
-        'Quest és l\u2019aproximació més propera que he trobat per descriure el que faig.',
+        'La recerca és l\u2019aproximació més propera que he trobat per descriure el que faig.',
         'Per exposar el que faig.',
-        'Una quest.',
+        'Una recerca.',
         'Una aventura.',
         'Explorar la vida com a remei per al buit.',
         'El que temo és una vida banal.',
         'En efecte. Tinc una por profunda.',
         'Em fa por el pensament nociu de no saber tant com puc sobre el món.',
         'O millor dit, aquest món en el que tinc la sort d\u2019haver nascut i de tenir l\u2019oportunitat de jugar-hi.',
-        'Però, qualsevol quest és cara.',
+        'Però, qualsevol recerca és cara.',
         'Cal energia, coratge, diners i temps. Recursos que es poden acumular generant valor i enfrontant-se a murs.',
         'D\u2019aquesta manera, el meu propòsit de crear valor.'
       ]
@@ -161,18 +161,18 @@ export const t = {
     },
     purpose: {
       kicker: '01 — Propósito',
-      h2: 'Mi quest.',
+      h2: 'Mi búsqueda.',
       lines: [
-        'Quest es el enfoque más cercano que he encontrado para describir lo que hago.',
+        'La búsqueda es el enfoque más cercano que he encontrado para describir lo que hago.',
         'Para exponer lo que hago.',
-        'Una quest.',
+        'Una búsqueda.',
         'Una aventura.',
         'Explorar la vida como remedio para el vacío.',
         'Lo que temo es una vida banal.',
         'De hecho. Tengo un miedo profundo.',
         'Me asusta el pensamiento nocivo de no saber tanto como puedo sobre el mundo.',
         'O mejor dicho, este mundo en el que tengo la suerte de haber nacido y de tener la oportunidad de jugar en él.',
-        'Pero, cualquier quest es cara.',
+        'Pero, cualquier búsqueda es cara.',
         'Requiere energía, coraje, dinero y tiempo. Recursos que pueden acumularse generando valor y enfrentando muros.',
         'Así, mi propósito de crear valor.'
       ]
