@@ -1,0 +1,13 @@
+{
+  "name": "Jordi",
+  "short_name": "Jordi",
+  "description": "Jordi — purpose, dreams that must come true, and AI as a means.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF9F6",
+  "theme_color": "#FAF9F6",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

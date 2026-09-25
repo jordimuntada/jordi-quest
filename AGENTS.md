@@ -21,8 +21,11 @@
 | `svelte.config.js` | SvelteKit config with Vercel adapter |
 | `src/app.css` | Breathable design system (warm neutrals) |
 | `src/app.html` | HTML shell (webfonts, favicon) |
-| `static/favicon.svg` | "j" quest-path favicon |
-| `static/icon-512.svg` | Touch icon (512px) |
+| `static/favicon.svg` | "j" quest-path favicon (SVG, primary) |
+| `static/favicon-16x16.png`, `favicon-32x32.png` | PNG favicon fallbacks |
+| `static/apple-touch-icon.png` | iOS touch icon (180px) |
+| `static/icon-192.png`, `icon-512.png` | Web manifest icons |
+| `static/manifest.webmanifest` | PWA manifest |
 | `src/lib/i18n/index.js` | All EN/CA/ES translations |
 | `src/lib/components/QuestPage.svelte` | Shared page component (lang prop) |
 | `src/routes/+page.svelte` | English (default) |
