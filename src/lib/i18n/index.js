@@ -15,9 +15,9 @@ export const t = {
     },
     purpose: {
       kicker: '01 — Purpose',
-      h2: 'Why this exists.',
+      h2: 'My Quest.',
       lines: [
-        '\u201CQuest\u201D is the closest approach I have found to describe what I do.',
+        'Quest is the closest approach I have found to describe what I do.',
         'To expose what I do.',
         'A quest.',
         'An adventure.',
@@ -88,9 +88,9 @@ export const t = {
     },
     purpose: {
       kicker: '01 — Propòsit',
-      h2: 'Per què existeix això.',
+      h2: 'La meva quest.',
       lines: [
-        '\u201CQuest\u201D és l\u2019aproximació més propera que he trobat per descriure el que faig.',
+        'Quest és l\u2019aproximació més propera que he trobat per descriure el que faig.',
         'Per exposar el que faig.',
         'Una quest.',
         'Una aventura.',
@@ -161,9 +161,9 @@ export const t = {
     },
     purpose: {
       kicker: '01 — Propósito',
-      h2: 'Por qué existe esto.',
+      h2: 'Mi quest.',
       lines: [
-        '\u201CQuest\u201D es el enfoque más cercano que he encontrado para describir lo que hago.',
+        'Quest es el enfoque más cercano que he encontrado para describir lo que hago.',
         'Para exponer lo que hago.',
         'Una quest.',
         'Una aventura.',
