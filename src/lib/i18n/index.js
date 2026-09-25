@@ -16,8 +16,20 @@ export const t = {
     purpose: {
       kicker: '01 — Purpose',
       h2: 'Why this exists.',
-      p1: 'Jordi is the closest approach I have thought of on how to expose what I do to others.',
-      p2: 'A place to be transparent about what matters, what is being built, and why.'
+      lines: [
+        '\u201CQuest\u201D is the closest approach I have found to describe what I do.',
+        'To expose what I do.',
+        'A quest.',
+        'An adventure.',
+        'Exploring life as a remedy for the void.',
+        'A banal life is what I fear.',
+        'Indeed. I am deeply fearful.',
+        'I am frightened by the harmful thought of not knowing as much as I can about the world.',
+        'Or better said, this world that I am lucky to be born into and to have the chance to play around in.',
+        'But, any quest is expensive.',
+        'It requires energy, courage, money, and time. Resources that can be accumulated by virtue of generating value and facing walls.',
+        'Thus, my purpose of creating value.'
+      ]
     },
     dreams: {
       kicker: '02 — Dreams that must come true',
@@ -77,8 +89,20 @@ export const t = {
     purpose: {
       kicker: '01 — Propòsit',
       h2: 'Per què existeix això.',
-      p1: 'Jordi és l\u2019aproximació més propera que he pensat per exposar el que faig als altres.',
-      p2: 'Un lloc per ser transparent amb allò que importa, allò que es construeix, i per què.'
+      lines: [
+        '\u201CQuest\u201D és l\u2019aproximació més propera que he trobat per descriure el que faig.',
+        'Per exposar el que faig.',
+        'Una quest.',
+        'Una aventura.',
+        'Explorar la vida com a remei per al buit.',
+        'El que temo és una vida banal.',
+        'En efecte. Tinc una por profunda.',
+        'Em fa por el pensament nociu de no saber tant com puc sobre el món.',
+        'O millor dit, aquest món en el que tinc la sort d\u2019haver nascut i de tenir l\u2019oportunitat de jugar-hi.',
+        'Però, qualsevol quest és cara.',
+        'Cal energia, coratge, diners i temps. Recursos que es poden acumular generant valor i enfrontant-se a murs.',
+        'D\u2019aquesta manera, el meu propòsit de crear valor.'
+      ]
     },
     dreams: {
       kicker: '02 — Somnis que s\u2019han de complir',
@@ -138,8 +162,20 @@ export const t = {
     purpose: {
       kicker: '01 — Propósito',
       h2: 'Por qué existe esto.',
-      p1: 'Jordi es el enfoque más cercano que he pensado para exponer lo que hago a los demás.',
-      p2: 'Un lugar para ser transparente con lo que importa, lo que se construye, y por qué.'
+      lines: [
+        '\u201CQuest\u201D es el enfoque más cercano que he encontrado para describir lo que hago.',
+        'Para exponer lo que hago.',
+        'Una quest.',
+        'Una aventura.',
+        'Explorar la vida como remedio para el vacío.',
+        'Lo que temo es una vida banal.',
+        'De hecho. Tengo un miedo profundo.',
+        'Me asusta el pensamiento nocivo de no saber tanto como puedo sobre el mundo.',
+        'O mejor dicho, este mundo en el que tengo la suerte de haber nacido y de tener la oportunidad de jugar en él.',
+        'Pero, cualquier quest es cara.',
+        'Requiere energía, coraje, dinero y tiempo. Recursos que pueden acumularse generando valor y enfrentando muros.',
+        'Así, mi propósito de crear valor.'
+      ]
     },
     dreams: {
       kicker: '02 — Sueños que deben cumplirse',

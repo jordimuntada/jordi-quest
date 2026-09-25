@@ -36,8 +36,9 @@ $: base = lang === defaultLang ? '' : `/${lang}`;
 <section id="purpose">
 <p class="kicker">{i.purpose.kicker}</p>
 <h2>{i.purpose.h2}</h2>
-<p>{i.purpose.p1}</p>
-<p class="muted">{i.purpose.p2}</p>
+{#each i.purpose.lines as line, idx}
+<p class={idx === i.purpose.lines.length - 1 ? 'muted' : undefined}>{line}</p>
+{/each}
 </section>
 
 <section id="dreams">
