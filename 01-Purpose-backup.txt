@@ -1,0 +1,21 @@
+Section 01 — Purpose (backup)
+Source: src/lib/i18n/index.js (purpose object)
+Date: 2026-09-24
+
+=== EN ===
+kicker: 01 — Purpose
+h2: Why this exists.
+p1: Jordi is the closest approach I have thought of on how to expose what I do to others.
+p2: A place to be transparent about what matters, what is being built, and why.
+
+=== CA ===
+kicker: 01 — Propòsit
+h2: Per què existeix això.
+p1: Jordi és l’aproximació més propera que he pensat per exposar el que faig als altres.
+p2: Un lloc per ser transparent amb allò que importa, allò que es construeix, i per què.
+
+=== ES ===
+kicker: 01 — Propósito
+h2: Por qué existe esto.
+p1: Jordi es el enfoque más cercano que he pensado para exponer lo que hago a los demás.
+p2: Un lugar para ser transparente con lo que importa, lo que se construye, y por qué.
